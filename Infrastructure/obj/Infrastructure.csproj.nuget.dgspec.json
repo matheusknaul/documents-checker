@@ -31,7 +31,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

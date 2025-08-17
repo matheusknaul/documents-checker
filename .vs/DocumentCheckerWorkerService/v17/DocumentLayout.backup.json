@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\Repositories\\DocumentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\DocumentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,6 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Worker.cs",
+              "RelativeDocumentMoniker": "Service\\Worker.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Worker.cs",
+              "RelativeToolTip": "Service\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:13:22.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Program.cs",
+              "RelativeDocumentMoniker": "Service\\Program.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Program.cs",
+              "RelativeToolTip": "Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:13:21.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DocumentRepository.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\Repositories\\DocumentRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DocumentRepository.cs",
