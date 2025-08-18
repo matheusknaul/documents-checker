@@ -5,24 +5,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Infrastructure.DataAccess;
 
 namespace Infrastructure.Repositories
 {
     public class DocumentRepository : IDocumentRepository
     {
-        public async Task<Document> GetAsync()
+        private readonly DocDbContext _context;
+
+        public DocumentRepository(DocDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
         }
 
-        public async Task<Document> InsertAsync()
+        public async Task<Document> GetIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Documents.FindAsync(id);
         }
 
-        public async Task<Document> UpdateAsync()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

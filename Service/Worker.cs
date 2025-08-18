@@ -1,3 +1,5 @@
+using Domain.Interfaces;
+
 namespace Service
 {
     /// <summary>
@@ -6,23 +8,16 @@ namespace Service
 
     public class Worker : BackgroundService
     {
-        private readonly IAppLogger<Worker> _logger;
+        private readonly ILogger<Worker> _appLogger;
 
-        public Worker(ILogger<Worker> logger)
+        public Worker(ILogger<Worker> appLogger)
         {
-            _logger = logger;
+            _appLogger = appLogger;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            while (!stoppingToken.IsCancellationRequested)
-            {
-                if (_logger.IsEnabled(LogLevel.Information))
-                {
-                    _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-                }
-                await Task.Delay(1000, stoppingToken);
-            }
+            _appLogger.LogInformation("Executando tarefa...");
         }
     }
 }

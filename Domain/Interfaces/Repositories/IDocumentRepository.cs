@@ -9,10 +9,8 @@ namespace Domain.Interfaces.Repositories
 {
     public interface IDocumentRepository
     {
-        Task<Document> GetAsync();
-        Task<Document> InsertAsync();
-        Task<Document> UpdateAsync();
-
+        Task<Document> GetIdAsync(int id);
+        //Task<DateTime> VerifyLastCheck(Document document);
 
     }
 }

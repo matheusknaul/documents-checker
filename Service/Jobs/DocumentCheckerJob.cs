@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Application.Services;
+using Quartz;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,40 +11,40 @@ namespace Service.Jobs
 {
     internal class DocumentCheckerJob : IJob
     {
-        private readonly IAppLogger<DocumentCheckerJob> _appLogger;
-        private readonly DocumentVerificationService _documentVerificationService;
+        private readonly ILogger<DocumentCheckerJob> _logger;
+        private readonly DocumentCheckerService _documentCheckerService;
 
         public DocumentCheckerJob(
-            IAppLogger<DocumentCheckerJob> appLogger,
-            DocumentVerificationService documentVerificationService)
+            ILogger<DocumentCheckerJob> logger,
+            DocumentCheckerService documentVerificationService)
         {
-            _appLogger = appLogger;
-            _documentVerificationService = documentVerificationService;
+            _logger = logger;
+            _documentCheckerService = documentVerificationService;
         }
 
         public async Task Execute(IJobExecutionContext context)
         {
             var et = Stopwatch.StartNew();
 
-            if (_appLogger.IsEnabled(LogLevel.Information))
+            if (_logger.IsEnabled(LogLevel.Information))
             {
-                _appLogger.LogInformation("DocumentCheckerJob started at: {time}", DateTimeOffset.Now);
+                _logger.LogInformation("DocumentCheckerJob started at: {time}", DateTimeOffset.Now);
             }
             try
             {
-                var result = await _documentVerificationService.ExecuteAsyn();
+                var result = await _documentCheckerService.ExecuteAsync();
                 if (result)
                 {
-                    _appLogger.LogInformation("Document verification completed successfully.");
+                    _logger.LogInformation("Document verification completed successfully.");
                 }
                 else
                 {
-                    _appLogger.LogWarning("Document verification did not complete successfully.");
+                    _logger.LogWarning("Document verification did not complete successfully.");
                 }
             }
             catch (Exception ex)
             {
-                _appLogger.LogError(ex, "An error occurred during document verification.");
+                _logger.LogError(ex, "An error occurred during document verification.");
             }
         }
 

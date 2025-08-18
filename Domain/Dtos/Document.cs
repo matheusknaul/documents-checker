@@ -12,7 +12,8 @@ namespace Domain.Dtos
         public int Id { get; set; }
         public string MainTag { get; set; }
         public string RestTag { get; set; }
-        public string Number { get; set; }
+        public int Number { get; set; }
+        public int PartNumber { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
         public DateTime LastVerification { get; set; }

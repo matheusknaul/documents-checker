@@ -53,6 +53,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -221,6 +227,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -282,7 +294,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Application.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Application.csproj"
+              },
+              "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -304,6 +323,10 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.15.0, )"
             }
           },
           "imports": [

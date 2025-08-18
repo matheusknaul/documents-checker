@@ -578,6 +578,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Quartz/3.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1"
+        },
+        "compile": {
+          "lib/net8.0/Quartz.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Quartz.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.EventLog/8.0.1": {
         "type": "package",
         "compile": {
@@ -602,6 +618,30 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.Logging": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
         }
       }
     }
@@ -1497,6 +1537,29 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Quartz/3.15.0": {
+      "sha512": "seV76VI/OW9xdsEHJlfErciicfMmmU8lcGde2SJIYxVK+k4smAaBkm0FY8a4AiVb6MMpjTvH252438ol/OOUwQ==",
+      "type": "package",
+      "path": "quartz/3.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Quartz.dll",
+        "lib/net462/Quartz.xml",
+        "lib/net472/Quartz.dll",
+        "lib/net472/Quartz.xml",
+        "lib/net8.0/Quartz.dll",
+        "lib/net8.0/Quartz.xml",
+        "lib/net9.0/Quartz.dll",
+        "lib/net9.0/Quartz.xml",
+        "lib/netstandard2.0/Quartz.dll",
+        "lib/netstandard2.0/Quartz.xml",
+        "quartz-logo-small.png",
+        "quartz.3.15.0.nupkg.sha512",
+        "quartz.nuspec",
+        "quick-start.md"
+      ]
+    },
     "System.Diagnostics.EventLog/8.0.1": {
       "sha512": "n1ZP7NM2Gkn/MgD8+eOT5MulMj6wfeQMNS2Pizvq5GHCZfjlFMXV2irQlQmJhwA2VABC57M0auudO89Iu2uRLg==",
       "type": "package",
@@ -1535,11 +1598,24 @@
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.Extensions.Hosting >= 8.0.1"
+      "Application >= 1.0.0",
+      "Domain >= 1.0.0",
+      "Microsoft.Extensions.Hosting >= 8.0.1",
+      "Quartz >= 3.15.0"
     ]
   },
   "packageFolders": {
@@ -1573,7 +1649,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Application.csproj": {
+              "projectPath": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Application.csproj"
+            },
+            "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1595,6 +1678,10 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[8.0.1, )"
+          },
+          "Quartz": {
+            "target": "Package",
+            "version": "[3.15.0, )"
           }
         },
         "imports": [

@@ -8,6 +8,6 @@ namespace Application.Services
 {
     public interface IService
     {
-        Task<bool> ExecuteAsyn();
+        Task<bool> ExecuteAsync();
     }
 }

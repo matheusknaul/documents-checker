@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12961E7E-47FD-4EB5-A302-FC7821E1495F}|Domain\\Domain.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\domain\\dtos\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12961E7E-47FD-4EB5-A302-FC7821E1495F}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\application\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|solutionrelative:application\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4ADF64B-E4D2-4E9A-80BD-61920E5854AA}|Infrastructure\\Infrastructure.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4ADF64B-E4D2-4E9A-80BD-61920E5854AA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12961E7E-47FD-4EB5-A302-FC7821E1495F}|Domain\\Domain.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\domain\\interfaces\\repositories\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12961E7E-47FD-4EB5-A302-FC7821E1495F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repositories\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4ADF64B-E4D2-4E9A-80BD-61920E5854AA}|Infrastructure\\Infrastructure.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\infrastructure\\dataaccess\\docdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4ADF64B-E4D2-4E9A-80BD-61920E5854AA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\docdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\jobs\\documentcheckerjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\jobs\\documentcheckerjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\configuration\\quartzsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\configuration\\quartzsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\application\\services\\documentverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|solutionrelative:application\\services\\documentverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\application\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|solutionrelative:application\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12961E7E-47FD-4EB5-A302-FC7821E1495F}|Domain\\Domain.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\domain\\enums\\cancellationreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12961E7E-47FD-4EB5-A302-FC7821E1495F}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\cancellationreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4ADF64B-E4D2-4E9A-80BD-61920E5854AA}|Infrastructure\\Infrastructure.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4ADF64B-E4D2-4E9A-80BD-61920E5854AA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\application\\cancellabletask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|solutionrelative:application\\cancellabletask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\application\\services\\documentcheckerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2185BA54-C101-40C7-99A1-214F441E359C}|Application\\Application.csproj|solutionrelative:application\\services\\documentcheckerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\configuration\\quartzsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\configuration\\quartzsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|c:\\desenvolvimento\\documentcheckerworkerservice\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B589C7B-A1B4-4520-99B1-47AE35C92DE8}|Service\\Service.csproj|solutionrelative:service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,28 +62,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Dtos\\Document.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\Document.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Dtos\\Document.cs",
+              "RelativeToolTip": "Domain\\Dtos\\Document.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T00:54:17.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Interfaces\\Repositories\\IDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\IDocumentRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Interfaces\\Repositories\\IDocumentRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Repositories\\IDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T00:49:37.261Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:07:35.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\DocumentService.cs",
+              "RelativeToolTip": "Application\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T00:46:24.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocDbContext.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\DataAccess\\DocDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\DocDbContext.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\DataAccess\\DocDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\DocDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T00:43:04.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CancellableTask.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\CancellableTask.cs",
+              "RelativeDocumentMoniker": "Application\\CancellableTask.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\CancellableTask.cs",
+              "RelativeToolTip": "Application\\CancellableTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T23:31:38.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CancellationReason.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Enums\\CancellationReason.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\CancellationReason.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Domain\\Enums\\CancellationReason.cs",
+              "RelativeToolTip": "Domain\\Enums\\CancellationReason.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T23:29:52.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\IService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\IService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\IService.cs",
+              "RelativeToolTip": "Application\\Services\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T23:20:22.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DocumentCheckerJob.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Jobs\\DocumentCheckerJob.cs",
               "RelativeDocumentMoniker": "Service\\Jobs\\DocumentCheckerJob.cs",
               "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Jobs\\DocumentCheckerJob.cs",
               "RelativeToolTip": "Service\\Jobs\\DocumentCheckerJob.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T04:23:02.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "QuartzSettings.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Configuration\\QuartzSettings.cs",
               "RelativeDocumentMoniker": "Service\\Configuration\\QuartzSettings.cs",
@@ -72,46 +200,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DocumentVerificationService.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\DocumentVerificationService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\DocumentVerificationService.cs",
-              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\DocumentVerificationService.cs",
-              "RelativeToolTip": "Application\\Services\\DocumentVerificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "DocumentCheckerService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\DocumentCheckerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DocumentCheckerService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\DocumentCheckerService.cs",
+              "RelativeToolTip": "Application\\Services\\DocumentCheckerService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T04:17:22.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IService.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\IService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\IService.cs",
-              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Application\\Services\\IService.cs",
-              "RelativeToolTip": "Application\\Services\\IService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:16:40.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Worker.cs",
               "RelativeDocumentMoniker": "Service\\Worker.cs",
               "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Worker.cs",
               "RelativeToolTip": "Service\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T04:13:22.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Service\\Program.cs",
               "RelativeDocumentMoniker": "Service\\Program.cs",
@@ -119,18 +234,8 @@
               "RelativeToolTip": "Service\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:13:21.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DocumentRepository.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\Repositories\\DocumentRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DocumentRepository.cs",
-              "ToolTip": "C:\\Desenvolvimento\\DocumentCheckerWorkerService\\Infrastructure\\Repositories\\DocumentRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\DocumentRepository.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:07:35.624Z"
+              "WhenOpened": "2025-08-17T04:13:21.443Z",
+              "EditorCaption": ""
             }
           ]
         }
